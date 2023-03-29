@@ -1,10 +1,12 @@
 import './App.css'
 import NavBar from './components/NavBar'
+import Slide from './components/Slide'
 
 function App() {
   return (
     <div className="App">
-      <NavBar />      
+      <NavBar />
+      <Slide />
     </div>
   )
 }
