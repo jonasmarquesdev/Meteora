@@ -1,4 +1,5 @@
 import './App.css'
+import Cards from './components/Cards'
 import NavBar from './components/NavBar'
 import Slide from './components/Slide'
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Slide />
+      <Cards />
     </div>
   )
 }
