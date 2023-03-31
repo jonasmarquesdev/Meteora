@@ -4,15 +4,15 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <section class="pb-4">
-        <h2 class="text-center">Conheça todas as nossas facilidades</h2>
+      <section class="pb-4 bg-black text-bg-dark">
+        <h2 class="text-center py-3">Conheça todas as nossas facilidades</h2>
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
           <div class="divs-facilidades d-flex align-items-center">
             <div>
-              <i class="bi bi-x-diamond fs-1"></i>
+              <i class="verde-limao bi bi-x-diamond fs-1"></i>
             </div>
             <div>
-              <div class="ms-3 mb-1">PAGUE PELO PIX</div>
+              <div class="ms-3 mb-1 verde-limao">PAGUE PELO PIX</div>
               <div class="texto-menor ms-3">
                 Ganhe 5% OFF em pagamentos via PIX
               </div>
@@ -20,10 +20,10 @@ export default function Footer() {
           </div>
           <div class="divs-facilidades d-flex align-items-center">
             <div>
-              <i class="bi bi-arrow-repeat fs-1"></i>
+              <i class="verde-limao bi bi-arrow-repeat fs-1"></i>
             </div>
             <div>
-              <div class="ms-3 mb-1">TROCA GRÁTIS</div>
+              <div class="ms-3 mb-1 verde-limao">TROCA GRÁTIS</div>
               <div class="texto-menor ms-3">
                 Fique livre para trocar em até 30 dias.
               </div>
@@ -31,10 +31,10 @@ export default function Footer() {
           </div>
           <div class="divs-facilidades d-flex align-items-center">
             <div>
-              <i class="bi bi-flower1 fs-1"></i>
+              <i class="verde-limao bi bi-flower1 fs-1"></i>
             </div>
             <div>
-              <div class="ms-3 mb-1">SUSTENTABILIDADE</div>
+              <div class="ms-3 mb-1 verde-limao">SUSTENTABILIDADE</div>
               <div class="texto-menor ms-3">
                 Moda responsável, que respeita o meio ambiente.
               </div>
@@ -62,8 +62,8 @@ export default function Footer() {
         </div>
       </form>
 
-      <footer class="text-center">
-        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+      <footer class="text-center bg-black text-bg-dark">
+        <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
       </footer>
     </>
   );

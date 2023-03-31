@@ -13,7 +13,7 @@ export default function MaisProcurados() {
               <h5 class="card-title">Produto</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <p>R$30,00</p>
-              <a href="#" class="btn btn-primary">Ver mais</a>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default function MaisProcurados() {
               <h5 class="card-title">Produto</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <p>R$30,00</p>
-              <a href="#" class="btn btn-primary">Ver mais</a>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function MaisProcurados() {
               <h5 class="card-title">Produto</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <p>R$30,00</p>
-              <a href="#" class="btn btn-primary">Ver mais</a>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function MaisProcurados() {
               <h5 class="card-title">Produto</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <p>R$30,00</p>
-              <a href="#" class="btn btn-primary">Ver mais</a>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function MaisProcurados() {
               <h5 class="card-title">Produto</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <p>R$30,00</p>
-              <a href="#" class="btn btn-primary">Ver mais</a>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function MaisProcurados() {
               <h5 class="card-title">Produto</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <p>R$30,00</p>
-              <a href="#" class="btn btn-primary">Ver mais</a>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
             </div>
           </div>
         </div>
