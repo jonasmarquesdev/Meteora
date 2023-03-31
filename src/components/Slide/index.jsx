@@ -1,4 +1,13 @@
 import React from "react";
+import slideMobile1 from "../../assets/Mobile/banner1-mobile.png";
+import slideTablet1 from "../../assets/Tablet/banner1-tablet.png";
+import slideDesktop1 from "../../assets/Desktop/banner1-desktop.png";
+import slideMobile2 from "../../assets/Mobile/banner2-mobile.png";
+import slideTablet2 from "../../assets/Tablet/banner2-tablet.png";
+import slideDesktop2 from "../../assets/Desktop/banner2-desktop.png";
+import slideMobile3 from "../../assets/Mobile/banner3-mobile.png";
+import slideTablet3 from "../../assets/Tablet/banner3-tablet.png";
+import slideDesktop3 from "../../assets/Desktop/banner3-desktop.png";
 
 export default function Slide() {
   return (
@@ -10,21 +19,54 @@ export default function Slide() {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+          <img 
+            class="img-fluid d-md-none" src={slideMobile1} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
+          <img 
+            class="img-fluid d-none d-md-block d-xl-none" src={slideTablet1} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
+          <img 
+            class="img-fluid d-none d-xl-block" src={slideDesktop1} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+          <img 
+            class="img-fluid d-md-none" src={slideMobile2} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
+          <img 
+            class="img-fluid d-none d-md-block d-xl-none" src={slideTablet2} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
+          <img 
+            class="img-fluid d-none d-xl-block" src={slideDesktop2} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+          <img 
+            class="img-fluid d-md-none" src={slideMobile3} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
+          <img 
+            class="img-fluid d-none d-md-block d-xl-none" src={slideTablet3} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
+          <img 
+            class="img-fluid d-none d-xl-block" src={slideDesktop3} 
+            alt="Modelo feminina vestindo blusa violeta" 
+          />
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
