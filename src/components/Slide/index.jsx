@@ -31,10 +31,6 @@ export default function Slide() {
             class="img-fluid d-none d-xl-block" src={slideDesktop1} 
             alt="Modelo feminina vestindo blusa violeta" 
           />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img 
@@ -50,8 +46,8 @@ export default function Slide() {
             alt="Modelo feminina vestindo blusa violeta" 
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>COLEÇÃO ATEMPORAL</h5>
+            <p>Estilo e qualidade para durar.</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -68,8 +64,8 @@ export default function Slide() {
             alt="Modelo feminina vestindo blusa violeta" 
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>COLEÇÃO ATEMPORAL</h5>
+            <p>Alto impacto visual, baixo impacto ambiental!</p>
           </div>
         </div>
       </div>
