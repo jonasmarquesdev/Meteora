@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <form class="border border-secondary m-3 p-3 text-center">
+      <form class="border border-secondary my-3 my-xl-5 p-3 text-center div-novidades mx-auto">
         <h5>
           Quer receber nossas novidades, promoções exclusivas e 10% OFF na
           primeira compra? Cadastre-se!

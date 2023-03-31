@@ -9,3 +9,15 @@
 .verde-limao {
   color: #DAFF01;
 }
+
+.div-novidades {
+  width: 325px;
+}
+
+@media(min-width: 768px) {
+
+  .div-novidades {
+      width: 696px;
+  }
+
+}
