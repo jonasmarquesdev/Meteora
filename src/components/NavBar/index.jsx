@@ -32,7 +32,7 @@ export default function NavBar() {
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Search" />
+            <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Buscar" />
             <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
           </form>
         </div>
